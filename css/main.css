@@ -171,4 +171,30 @@ hero
 .btn-hero {
     background: var(--clr-white);
     color: var(--clr-primary-2);
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+}
+
+.btn-hero:hover {
+    background: transparent;
+    color: var(--clr-white);
+    border-color: var(--clr-white);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/1.jpg") center/cover no-repeat;
+    }
+
+    .hero-banner {
+        padding: 0;
+    }
+
+    .hero-banner p {
+        max-width: 45rem;
+    }
+
+    .btn-hero {
+        color: var(--clr-grey-2);
+    }
 }
