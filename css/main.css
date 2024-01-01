@@ -133,7 +133,42 @@ p {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.btn:hover{
+.btn:hover {
     color: var(--clr-primary-1);
     background: var(--clr-primary-3);
+}
+
+/*
+================================================
+hero
+================================================
+*/
+
+.hero {
+    background: var(--clr-primary-2);
+    color: var(--clr-white);
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner {
+    padding: 0 3rem;
+}
+
+.hero-banner h1 {
+    margin-bottom: 3rem;
+}
+
+.hero-banner p {
+    max-width: 35rem;
+    color: var(--clr-white);
+    margin-bottom: 2rem;
+}
+
+.btn-hero {
+    background: var(--clr-white);
+    color: var(--clr-primary-2);
 }
