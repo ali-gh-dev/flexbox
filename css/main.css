@@ -138,6 +138,31 @@ p {
     background: var(--clr-primary-3);
 }
 
+.section {
+    padding: 5rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title span {
+    color: var(--clr-primary-2);
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+    .section-center {
+        width: 95vw;
+        max-width: 1170px;
+    }
+}
+
 /*
 ================================================
 hero
@@ -205,14 +230,6 @@ about
 ================================================
 */
 
-.section-title {
-    text-align: center;
-    margin: 3rem 0;
-}
-
-.section-title span {
-    color: var(--clr-primary-2);
-}
 
 .about-img {
     margin-bottom: 2rem;
@@ -236,9 +253,9 @@ about
 }
 
 @media screen  and (min-width: 1170px) {
-.about-photo{
-    border: 10px solid var(--clr-primary-2);
-    /*transform: translate(-20px , 20px);*/
-    
-}
+    .about-photo {
+        border: 10px solid var(--clr-primary-2);
+        /*transform: translate(-20px , 20px);*/
+
+    }
 }
