@@ -198,3 +198,47 @@ hero
         color: var(--clr-grey-2);
     }
 }
+
+/*
+================================================
+about
+================================================
+*/
+
+.section-title {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.section-title span {
+    color: var(--clr-primary-2);
+}
+
+.about-img {
+    margin-bottom: 2rem;
+}
+
+@media screen  and (min-width: 768px) {
+    .about-img {
+        margin-bottom: 0;
+    }
+
+    .section-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-img, .about-info {
+        flex: 0 0 calc(50% - 2rem);
+        align-self: center;
+    }
+
+}
+
+@media screen  and (min-width: 1170px) {
+.about-photo{
+    border: 10px solid var(--clr-primary-2);
+    /*transform: translate(-20px , 20px);*/
+    
+}
+}
