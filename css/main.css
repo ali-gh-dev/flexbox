@@ -256,7 +256,7 @@ about
     .about-img{
         position: relative;
     }
-    .about-img::before{
+    .about-img::before {
         content: "";
         border: solid 0.5rem var(--clr-primary-2);
         width: 100%;
