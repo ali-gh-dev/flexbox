@@ -384,7 +384,7 @@ articles
 .article-footer, .article-title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .article-footer p {
@@ -430,4 +430,14 @@ articles
         flex: 0 0 calc(25% - 1rem);
     }
 }
+
+/*
+================================================
+contact
+================================================
+*/
+
+/*.contact {*/
+/*    background: var(--clr-primary-2);*/
+/*}*/
 
