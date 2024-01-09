@@ -485,3 +485,44 @@ contact
     }
 
 }
+
+/*
+================================================
+gallery
+================================================
+*/
+
+.gallery-img-container {
+    position: relative;
+    background: var(--clr-primary-2);
+}
+
+.gallery-img {
+    transition: var(--transition);
+    height: 17rem;
+    object-fit: cover;
+}
+
+
+.gallery-icon {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 2rem;
+    color: var(--clr-white);
+    display: none;
+    /*opacity: 0;*/
+    transition: var(--transition);
+}
+
+.gallery-img-container:hover .gallery-icon {
+    display: block;
+    /*opacity: 1;*/
+}
+
+.gallery-img-container:hover .gallery-img {
+    opacity: 0.5;
+}
+
