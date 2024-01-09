@@ -469,6 +469,19 @@ contact
     transition: var(--transition);
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
     background: var(--clr-primary-1);
+}
+
+@media screen and (min-width: 992px) {
+    .contact-content {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .contact-form {
+        align-self: flex-start;
+        flex: 1 1 auto;
+    }
+
 }
