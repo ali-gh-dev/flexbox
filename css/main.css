@@ -338,17 +338,13 @@ articles
 ================================================
 */
 
-/*.articles-content {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: space-between;*/
-/*}*/
 
 .article-card {
     background: var(--clr-grey-4);
     margin-bottom: 2rem;
     box-shadow: var(--light-shadow);
     transition: var(--transition);
+    border-radius: 1rem;
 }
 
 .article-card:hover {
@@ -437,7 +433,42 @@ contact
 ================================================
 */
 
-/*.contact {*/
-/*    background: var(--clr-primary-2);*/
-/*}*/
+.contact {
+    background: var(--clr-primary-2);
+}
 
+.contact-info, .contact-info p {
+    color: var(--clr-white);
+}
+
+.contact-form {
+    display: flex;
+}
+
+.form-control {
+    flex: 1 1 auto;
+    color: var(--clr-grey-2);
+}
+
+.form-control, .btn-submit {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border: transparent;
+}
+
+.form-control::placeholder {
+    font-family: var(--ff-primary);
+    color: var(--clr-grey-2);
+}
+
+.btn-submit {
+    font-family: var(--ff-primary);
+    background: var(--clr-primary-3);
+    color: var(--clr-white);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-submit:hover{
+    background: var(--clr-primary-1);
+}
