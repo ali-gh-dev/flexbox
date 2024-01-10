@@ -551,5 +551,41 @@ footer
 ================================================
 */
 
+.footer {
+    background: var(--clr-footer);
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer-link {
+    color: var(--clr-white);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.footer-link:hover {
+    color: var(--clr-primary-2);
+}
+
+.copyright {
+    color: var(--clr-white);
+}
+
+.footer-icon {
+    color: var(--clr-primary-2);
+    font-size: 2rem;
+}
+
+.footer-links, .footer-icons {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+
+
 
 
