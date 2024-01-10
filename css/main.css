@@ -27,7 +27,7 @@ variables
 
 
 :root {
-    --clr-primary-1: #a53860;
+    --clr-primary-1: #320417;
     --clr-primary-2: #da627d;
     --clr-primary-3: #ffa5ab;
     /*--clr-primary-1: #5a189a;*/
@@ -38,6 +38,7 @@ variables
     --clr-grey-3: #9eb2c7;
     --clr-grey-4: #f1f5f8;
     --clr-white: #fff;
+    --clr-footer: #320417FF;
     --ff-primary: "vazir-farsi-digits", sans-serif;
     --transition: all 0.3s linear;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -543,4 +544,12 @@ gallery
         flex: 0 0 25%;
     }
 }
+
+/*
+================================================
+footer
+================================================
+*/
+
+
 
