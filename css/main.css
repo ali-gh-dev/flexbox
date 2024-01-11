@@ -231,6 +231,17 @@ navbar
     padding-right: 2.25rem;
 }
 
+.nav-links{
+    /*display: none;*/
+    height: 0;
+    overflow: hidden;
+}
+.show-links{
+    /*display: block;*/
+    height: 280px;
+    transition: var(--transition);
+}
+
 /*@media screen and (min-width: 768px) {*/
 /*    .nav-toggle {*/
 /*        display: none;*/
